@@ -1,8 +1,31 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url('../images/brick.jpeg');
+    background-size: cover;
+    color: rgb(42, 46, 54);
 }
 
-a {
-  color: #00B7FF;
+.bg-light {
+    background-color: transparent!important;
+    color: rgb(42, 46, 54);
+    background-color: chartreuse;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(139, 30, 30);
+}
+
+.navbar-light .navbar-brand {
+    color: rgb(0, 0, 0);
+}
+
+.nav-link {
+    color: white(0, 0, 0, .9);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

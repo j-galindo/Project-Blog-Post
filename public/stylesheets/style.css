@@ -1,0 +1,27 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/brick.jpeg");
+  background-size: cover;
+  color: #2a2e36; }
+
+.bg-light {
+  background-color: transparent !important;
+  color: #2a2e36;
+  background-color: chartreuse; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #8b1e1e; }
+
+.navbar-light .navbar-brand {
+  color: black; }
+
+.nav-link {
+  color: white(0, 0, 0, 0.9); }
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=style.css.map */
